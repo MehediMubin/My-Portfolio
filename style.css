@@ -16,9 +16,10 @@ body {
   padding: 5px 30px;
 }
 
-section {
+.Flexible-Container {
   display: flex;
   margin-bottom: 50px;
+  text-align: justify;
 }
 
 .half {
@@ -40,10 +41,6 @@ section {
   background-repeat: no-repeat;
 }
 
-.Welcome-Area p {
-  text-align: justify;
-}
-
 .Dream {
   font-size: 40px;
 }
@@ -51,7 +48,6 @@ section {
 .Dream-Area p {
   font-weight: 500;
   width: 80%;
-  text-align: justify;
 }
 
 .Dream-Area {
@@ -60,7 +56,46 @@ section {
   background-position: right;
 }
 
-/* .Dream-Area img {
-  margin: 0;
-  padding-left: 0%;
-} */
+.Experience {
+  margin-left: 5%;
+  font-size: 40px;
+  display: block;
+}
+
+.Web-Dev {
+  font-size: 40px;
+}
+
+footer p {
+  text-align: center;
+}
+
+.Experience-Item {
+  width: 40%;
+  box-shadow: 20px 20px 50px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 80px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.Experience-Area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#Full-Stack {
+  border-left: 5px solid;
+  border-image: linear-gradient(blue, yellow);
+  border-image-slice: 1;
+}
+
+#Baby-Web {
+  border-left: 5px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
